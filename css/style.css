@@ -1,0 +1,605 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:Cinzel-Regular;
+    src: url(../fonts/Cinzel-Regular.ttf);
+}
+@font-face {
+    font-family:Cinzel-Black;
+    src: url(../fonts/Cinzel-Black.ttf);
+}
+@font-face {
+    font-family:Cinzel-Bold;
+    src: url(../fonts/Cinzel-Bold.ttf);
+}
+@font-face {
+    font-family:OpenSans-Regular;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family:OpenSans-Semibold;
+    src: url(../fonts/OpenSans-Semibold.ttf);
+}
+
+
+/* styling home page */
+
+.main-page{
+    text-transform: uppercase;
+}
+
+header{
+    height: 110px;
+    width: 100%;
+    background-color: #F5EFEF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.company-name{
+    color: #3F3232;
+    text-decoration: none;
+    font-size: 22px;
+    font-family:Cinzel-regular;
+    margin-left: 100px;
+}
+
+.flower{
+    font-family:Cinzel-Black;
+   
+}
+
+
+.nav{
+    display: flex;
+    list-style: none;
+    margin-top: 40px;
+    text-shadow: 0px 2px 4px #9c9c9c ;
+    
+    
+}
+
+.categories{
+    text-decoration: none;
+    color: #75464A;
+    font-size: 16px;
+    font-family:Cinzel-regular;
+    margin-right: 60px;
+}
+
+.categories:active {
+    font-weight: bold;
+  }
+
+
+.active {
+    font-weight: bold;
+  }
+
+
+
+
+.user{
+    margin-right: 100px;
+ 
+}
+
+.heading{
+    font-family:Cinzel-Bold;
+    font-size: 18px;
+    color: black;
+    margin-top: 180px;
+    margin-left: 130px;
+    text-shadow: 0px 5px 6px #9c9c9c ;
+    
+}
+
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.card1{
+    border: solid 1px;
+    color: #75464A;
+    border-radius: 15px;
+    padding: 21px;
+    height: 532px;
+}
+
+.card2{
+    border: solid 1px;
+    color: #75464A;
+    border-radius: 15px;
+    padding: 21px;
+    height: 532px;
+}
+
+.card3{
+    border: solid 1px;
+    color: #75464A;
+    border-radius: 15px;
+    padding: 21px;
+    height: 532px;
+}
+
+.style-bullets{
+    list-style-type: none;
+}
+
+.flower-name{
+    font-family:Cinzel-Bold;
+    color: #121111;
+    font-size: 16px;
+
+}
+.stock{
+    font-family:Cinzel-regular;
+    font-size: 12px;
+    text-decoration: underline;
+    color: black
+}
+.new{
+    font-size: 12px;
+    text-decoration: underline;
+    font-family:Cinzel-Bold;
+    color: #FF0000;
+}
+
+.vertical{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.price{
+    font-family:Cinzel-regular;
+}
+
+.button{
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-top: 11px;
+    padding-left: 20px;
+    padding-bottom: 11px;
+    background-color: #3F3232;
+    color: #FFFFFF;
+    font-family:Cinzel-Bold;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 12px;
+    cursor:pointer;
+}
+
+.button2{
+    border-radius: 10px;
+    padding-right: 40px;
+    padding-top: 12px;
+    padding-left: 40px;
+    padding-bottom: 12px;
+    background-color: #3F3232;
+    color: #FFFFFF;
+    font-family:Cinzel-Bold;
+    font-size: 18px;
+    margin-left: 1300px;
+    margin-top: 150px;
+    cursor:pointer;
+    
+   
+}
+
+footer{ 
+    position: absolute;
+    background-color: #F5EFEF;
+    height: 263px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+    
+}
+
+.phrase{
+    margin-left: 100px;
+    font-family:Cinzel-regular;
+    color: black;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.socials{
+    margin-left: 45px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: #75464A;
+    font-size: 16px;
+    font-family:Cinzel-regular;
+}
+
+.footer-list{
+    list-style: none;
+    margin-top: 20px;
+    display: flex;
+    margin-right: 100px;
+    
+}
+
+
+/* styling gallery page */
+
+
+.photo-gallery{
+    font-size: 18px;
+    font-family:Cinzel-bold;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+
+
+
+.image1{
+    background-image: url(../images/gallery/flowers1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 350px;
+    cursor: pointer;
+    
+    
+    
+}
+
+.image2{
+    background-image: url(../images/gallery/flowers2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 350px;
+    cursor: pointer;
+    
+    
+}
+.image3{
+    background-image: url(../images/gallery/flowers3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 350px;
+    cursor: pointer;
+    
+}
+.image4{
+    background-image: url(../images/gallery/flowers4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 350px;
+    cursor: pointer;
+    
+}
+.image5{
+    background-image: url(../images/gallery/flowers5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 350px;
+    cursor: pointer;
+    
+}
+.image6{
+    background-image: url(../images/gallery/flowers6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 350px;
+    cursor: pointer;
+    
+}
+.image7{
+    background-image: url(../images/gallery/flowers7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 350px;
+    cursor: pointer;
+    
+}
+.image8{
+    background-image: url(../images/gallery/flowers8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 350px;
+    cursor: pointer;
+    
+}
+.image9{
+    background-image: url(../images/gallery/flowers9.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 350px;
+    cursor: pointer;
+    
+}
+
+
+.image1:hover{
+    transform: scale(1.1)
+} 
+.image2:hover{
+    transform: scale(1.1)
+} 
+.image3:hover{
+    transform: scale(1.1)
+} 
+.image4:hover{
+    transform: scale(1.1)
+} 
+.image5:hover{
+    transform: scale(1.1)
+} 
+.image6:hover{
+    transform: scale(1.1)
+} 
+.image7:hover{
+    transform: scale(1.1)
+} 
+.image8:hover{
+    transform: scale(1.1)
+} 
+.image9:hover{
+    transform: scale(1.1)
+} 
+
+
+.row1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    
+}
+.row2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+.row3{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+
+
+.flowers{
+    margin-top: 100px;
+}
+
+
+
+/* styling about us page */
+
+.about-us{
+    font-size: 18px;
+    font-family:Cinzel-Bold;
+    margin-top: 162px;
+    margin-left: 100px;
+
+}
+
+
+.section1{
+    display: flex;
+
+}
+
+.section2{
+    display: flex;
+}
+
+.section1-paragraph{
+    font-size: 18px;
+    font-family:Cinzel-regular;
+    margin-left: 100px;
+    margin-top: 150px;
+   
+
+}
+
+.section2-paragraph{
+    font-size: 18px;
+    font-family:Cinzel-regular;
+    margin-right: 100px;
+    margin-top: 150px;
+}
+
+
+.section1-image{
+    margin-right: 100px;
+    
+}
+
+
+
+.section2-image{
+    margin-left: 100px;
+}
+
+
+
+
+/* styling contact page */
+
+.contact-us{
+    font-family:Cinzel-Bold;
+    font-size: 18px;
+    margin-top: 162px;
+    margin-left: 100px;
+
+}
+
+.send-message{
+    font-family:Cinzel-Bold;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.working-days1{
+    font-family:Cinzel-regular;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+.working-days2{
+    font-family:Cinzel-regular;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 195px;
+    margin-top: 10px;
+}
+
+
+.working-hours1{
+    font-family:Cinzel-regular;
+    font-size: 18px;
+    margin-top: 40px;
+    padding-left: 30px;
+
+}
+.working-hours2{
+    font-family:Cinzel-regular;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-left: 25px;
+}
+ 
+.working1{
+    display: flex ;
+    justify-content: center;
+    
+}
+
+.working2{
+    display: flex ;
+    justify-content: center;
+    
+    
+}
+
+
+.field{
+    border-radius: 10px;
+    border-color: #75464A;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top:25px ;
+    padding-bottom: 25px;;
+    
+}
+.field-different{
+    border-radius: 10px;
+    border-color: #75464A;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top:180px ;
+    padding-bottom: 180px;;
+}
+
+.first-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+
+.second-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.third-section{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 60px;
+    margin-top: 80px;
+}
+
+
+.information{
+    font-size: 16px;
+    font-family:Cinzel-regular;
+    margin-bottom: 14px;
+}
+
+
+
+
+/* styling faq page */
+
+.faq-style{
+    text-transform:none
+}
+
+.faq-heading{
+    font-family:Cinzel-Bold;
+    font-size: 18px;
+    margin-top: 144px;
+    margin-left: 119px;
+}
+
+
+.faq-headings{
+    font-family:OpenSans-Semibold;
+    font-size: 25px;
+    margin-top: 115px;
+    margin-left: 119px;
+    border-bottom: 1px solid #75464A;
+    width: 45%;
+    height: 50px;
+}
+
+
+.faq-paragraphs{
+    font-family:OpenSans-Regular;
+    font-size: 18px;
+    margin-left: 119px;
+    margin-top: 60px;
+
+}
+
+
